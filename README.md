@@ -2,6 +2,8 @@
 
 This is a free sample of the [Zeus Icon Set](https://xus.badia.me/zeus) for [Home Assistant](https://www.home-assistant.io).
 
+![Zeus for Home Assistant](/docs/zeus-ha-main.png "Zeus for Home Assistant")
+
 ## Instructions
 To add these icons to your Home Assistant, you just need to follow these simple steps:
 
@@ -59,3 +61,7 @@ For a complete list of Zeus icons, please visit: https://xus.badia.me/zeus
 And a complete cheatsheet, please visit: https://xus.badia.me/zeus/cheatsheet
 
 ================================
+
+## Example
+
+![Lights](/docs/lights_screenshot.png "Lights")
