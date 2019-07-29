@@ -12,10 +12,10 @@ To add these icons to your Home Assistant, you just need to follow these simple 
 ```
 frontend:
   extra_html_url:
-    - /local/hass-zha-icons.html
+    - /local/hass-zeus-icons.html
 ```
 
-That's it! To use the icons, just write 'zha:icon_name'. (the 'icon_name' is the same as the SVG files inside the SVG folder).
+That's it! To use the icons, just write 'zeus:icon_name'. (the 'icon_name' is the same as the SVG files inside the SVG folder).
 
 Here's a cheatsheet for a complete list of icon names:
 ```
