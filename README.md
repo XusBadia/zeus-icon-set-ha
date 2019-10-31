@@ -51,6 +51,14 @@ piggybank
 volumemutealt
 sofa
 airconditioner
+airconditionerfan
+vacuumcleaner
+fanoff
+dog
+smokedetector
+classicwalllight
+chandelier
+drop
 ```
 
 
