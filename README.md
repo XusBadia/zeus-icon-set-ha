@@ -7,6 +7,22 @@ This is a free sample of the [Zeus Icon Set](https://xus.badia.me/zeus) for [Hom
 ## Instructions
 To add these icons to your Home Assistant, you just need to follow these simple steps:
 
+### After HA VERSION 0.110
+
+1) Copy the www folder inside your Home Assistant.
+
+2) Add this code to your configuration.yaml file:
+
+```
+lovelace:
+    resources:
+        -   url: /local/hass-zeus-icons.js
+            type: module
+```
+
+
+### BEFORE HA VERSION 0.110
+
 1) Copy the www folder inside your Home Assistant.
 
 2) Add this code to your configuration.yaml file:

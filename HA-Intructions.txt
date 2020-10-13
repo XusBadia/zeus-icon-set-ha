@@ -1,13 +1,28 @@
 
 To add these icons to your Home Assistant, you just need to follow these simple steps:
 
+** After HA VERSION 0.110 **
+
+1) Copy the www folder inside your Home Assistant.
+
+2) Add this code to your configuration.yaml file:
+
+lovelace:
+    resources:
+        -   url: /local/hass-zeus-icons.js
+            type: module
+
+
+** BEFORE HA VERSION 0.110 **
+
 1) Copy the www folder inside your Home Assistant.
 
 2) Add this code to your configuration.yaml file:
 
 frontend:
   extra_html_url:
-    - /local/hass-zha-icons.html
+    - /local/hass-zeus-icons.html
+
 
 
 That's it! To use the icons, just write 'zha:icon_name'. (the 'icon_name' is the same as the SVG files inside the SVG folder).
